@@ -13,6 +13,11 @@
  *= require_tree .
  */
 
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote, pre, form, fieldset, table, th, td {
+  padding: 0;
+  margin: 0;
+} 
+
 body {
   text-align: center;
   background-image: url(Scat-Pink_Slate.png);
@@ -38,9 +43,9 @@ header {
   font-family: 'Cinzel', serif;
   font-size: 48px;
   color: yellow;
-  padding: 30px;
   width: 900px;
-  margin: 0 auto 25px auto;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .logo {
@@ -53,49 +58,47 @@ header {
   margin: 0 auto;
 }
 
-/*.page-wrapper {
-
-  padding: 30px;
-  border: 10px solid #000000;
-  margin: 0 auto;
-  width: 90%;
-  min-height: 650px;
-}*/
-
 .playcards {
   background: white;
   padding: 20px;
   padding-top: 40px;
   text-align: left;
-  float: left;
+  width: 90%;
+  /*float: left;*/
   position: relative;
   border: 5px solid #000000;
   font-size: 24px;
   color: #5a5a5a;
 }
 
-.game-controls {
-  float: right;
+#die_button {
+  vertical-align: left;
 }
 
 #roll_result {
+  float: right;
+  vertical-align: center;
   font-family: 'Cinzel', serif;
   font-size: 48px;
-  color: blue;
+  color: black;
   text-align: center;
   background: white;
-  margin: 10px;
+  margin: 18px;
   width: 100px;
-  position: center;
-  border:hidden 5px #000000;
   -moz-border-radius: 14px;
   -webkit-border-radius: 14px;
   border-radius: 14px;
-  margin-left: 35px;
+
+}
+
+.timer {
+  vertical-align: center;
+  float: right;
 }
 
 input {
   margin: 5px;
+  text-align: justify;
 }
 
 .clear {

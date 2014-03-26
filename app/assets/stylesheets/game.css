@@ -3,26 +3,26 @@
 }
 
 .game-controls {
-	display: inline-block;
-	vertical-align: top;
-	text-align: left;
-	/*margin: 0px 25px 0px 100px;*/
+	position: relative;
+	height: 110px;
 }
 
 .die {
-	margin: 10px 50px;
+	float: right;
+	margin: 10px;
 }
 
 .roll_result {
-	margin: 50px;
+	margin: 10px;
 }
 
 .next-round-button {
-	margin: 50px;
+	margin: 10px;
 }
 
 .timer {
-	margin: 50px;
+	float: right;
+	margin: 10px;
 }
 
 .score {
