@@ -8,7 +8,7 @@
 
 category_lists = []
   category_lists << ["A boy's name", "A river", "An animal", "Things that are cold", "Insects", "TV Shows", "Things that grow", "Fruits", "Things that are black", "School subjects", "Movie Titles", "Musical Instruments"]
-  category_lists << ["Authors", "Bodies of Water", "A Bird", "Countries", "Cartoon Characters", "Holidays", "Things that Are Square", "In the NWT (Northwest Territories, Canada)", "Clothing", "A relative", "Games", "Sports Stars"]
+  category_lists << ["Authors", "Bodies of Water", "A Bird", "Countries", "Cartoon Characters", "Holidays", "Things that Are Square", "World Cuisines", "Clothing", "A relative", "Games", "Sports Stars"]
   category_lists << ["School supplies", "Things that are hot", "Heroes", "A girl's name", "Fears", "TV Stars", "Colors", "A fish", "Fruits", "Provinces or States", "Sports Equipment", "Tools"]
   category_lists << ["Breakfast Foods", "Gifts", "Flowers", "Ice Cream Flavors", "A drink", "Toys", "Cities", "Things in the Kitchen", "Ocean Things", "Nicknames", "Hobbies", "Parts of the body"]
   category_lists << ["Sandwiches", "Items in a Catalog", "World Leaders/Politicians", "School Subjects", "Excuses for Being late", "Ice cream flavors", "Things that Jump/Bounce", "TV Stars", "Things in a Park", "Foreign Cities", "Stones/Gems", "Musical Instruments"]
