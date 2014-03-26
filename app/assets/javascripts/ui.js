@@ -98,8 +98,7 @@ $(document).ready(function(){
         round.submitAnswer(round.player, e.target.id.replace("answer-", ""), input.val());
       });
 
-      input.appendTo("#slot-"+n);
-      $("<br>").appendTo(".playcards");
+      $("#slot-"+n).after(input);
       n++;
     });
   }
